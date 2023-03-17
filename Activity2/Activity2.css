@@ -13,7 +13,6 @@ table
 	border-collapse: collapse;
 	border: 1px solid black;
 	margin: 20px;
-	vertical-align: middle;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -39,8 +38,12 @@ th, td
 tbody tr:nth-child(even) td 
 {
 	background-color: yellow;
-	text-align: right;
+}
+tbody tr:last-child td 
+{
+	background-color: yellow;
 	font-weight: bold;
+	text-align: right;
 }
 figure{
 	margin-bottom: 0;
