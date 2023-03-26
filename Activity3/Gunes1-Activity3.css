@@ -1,0 +1,40 @@
+.header {
+  margin-bottom: 125px;
+}
+.header .logo {
+  float: left;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+.content {
+  width: 70%;
+  position: relative;
+  left:13%;
+}
+
+/* The koala image is justified to the left and is given a margin-right for the text */
+.content .image img {
+  float: left;
+  width: 250px;
+  margin-right: 10px;
+}
+
+/* The advertisement part has been adjusted by giving position absolute and giving top to the top of the page */
+.advertisement {
+  width: 100px;
+  height: 150px;
+  border-color: black;
+  border-width: 2px;
+  background-color: gray;
+  color: white;
+  position: absolute;
+  left: 1%;
+  top: 3%;
+}
+.head {
+  text-align: center;
+  margin-top: 50px;
+}
+div:last-child {
+  width: 100%;
+}
