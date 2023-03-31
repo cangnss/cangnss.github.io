@@ -1,0 +1,25 @@
+.about-content{
+    margin-left: 15%;
+}
+.about-content .container h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 42px;
+}
+.about-content .container .about .about-img{
+    border-radius: 15px;
+    float: left; /* I justified the photo to the left */
+}
+.about-content .container .about-text{
+    float: left; /* I justified the text to the left */
+    margin-left: 30px;
+}
+.about-content .container .about-text h3{
+    font-size: 32px;
+    margin-bottom: 0; /* I reset the distance between the title and the text */
+}
+
+.footer .footer-container{
+    margin-top: 30% !important;
+}
