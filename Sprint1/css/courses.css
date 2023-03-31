@@ -6,7 +6,7 @@
     float: left;
     margin-left: 50px;
     margin-right: 16px;
-    width: 20%;
+    width: 18%;
     text-align: center;
     padding: 8px 8px;
     border-radius: 15px;
@@ -54,5 +54,5 @@
     text-decoration: none;
 }
 .footer .footer-container{
-    margin-top: 30% !important;
+    margin-top: 35% !important;
 }
