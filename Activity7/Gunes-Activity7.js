@@ -14,17 +14,19 @@ window.onload = function () {
 function displayResults() {
   var average = 0;
   var highestScore = 0;
+  var highestName = "";
   for (var i = 0; i < scores.length; i++) {
     average = (average * i + scores[i]) / (i + 1);
-	if (scores[i] > highestScore) {
-		highestScore = scores[i];
-	}
+    if (scores[i] > highestScore) {
+      highestScore = scores[i];
+      highestName = names[i];
+    }
   }
 
   document.getElementById("results").innerHTML =
     "<h2> Results </h2><br /> Average score is " +
     average +
-    "<br ><h2> Highest score is " +
+    "<br ><h2>"+ highestName +" with a score of " +
     highestScore +
     "";
 }
