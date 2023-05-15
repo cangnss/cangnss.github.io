@@ -1,0 +1,15 @@
+body {
+  margin: 20px;
+}
+label {
+  display: inline-block;
+  width: 20%;
+  font-weight: bold;
+}
+input {
+  height: 20px;
+}
+input:required:invalid {
+  border: 2px solid red;
+  border-radius: 2px;
+}
