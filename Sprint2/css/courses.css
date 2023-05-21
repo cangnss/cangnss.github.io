@@ -1,0 +1,103 @@
+.courses-content {
+  margin-top: 108px;
+}
+/* the course was placed in a card and the contents were centered. */
+.courses-content .container .course {
+  float: left;
+  margin-left: 50px;
+  margin-right: 16px;
+  width: 18%;
+  text-align: center;
+  padding: 8px 8px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.courses-content .container .course .course-img {
+  width: 70%;
+  height: 10%;
+  border-radius: 15px;
+}
+.courses-content .container .course .course-info {
+  width: 200px;
+  float: left;
+}
+.courses-content .container .course .course-instructor-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-top: 6px;
+  float: left;
+}
+.courses-content .container .course .course-instructor {
+  text-align: left;
+  margin-left: 24px;
+}
+/* the category of the course is indicated by a badge. */
+.courses-content .container .course-category {
+  float: right;
+  overflow: hidden;
+  border: none;
+  border-radius: 15px;
+  padding: 16px;
+  text-align: center;
+  color: white;
+  background-color: #bdd99e;
+}
+.courses-content .container .course .join-course {
+  width: 100%;
+  display: inline-block;
+}
+.courses-content .container .course .join-course a {
+  text-decoration: none;
+}
+.footer .footer-container {
+  margin-top: 30% !important;
+}
+.payment-popup {
+  width: 400px;
+  background-color: white;
+  border: none;
+  padding: 4rem;
+  border-radius: 15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.payment-popup .payment-div {
+  margin-top: 1rem;
+}
+.payment-popup .payment-div .form-item{
+    margin: 2rem;
+}
+.payment-popup .payment-div .form-item input[type=button]{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: #009878;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    font-size: 18px;
+}
+label{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #009878;
+  height: 24px;
+  width: 100%;
+}
+input:required:invalid {
+  border: 1px solid red;
+  border-radius: 5px;
+}

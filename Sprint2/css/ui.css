@@ -1,0 +1,32 @@
+/* A container css has been written that can be used continuously. */
+.container{
+    width: 100%;
+}
+/* A column css has been written that can be used continuously. */
+.column{
+    width: 30%;
+}
+.label{
+    font-weight: bold;
+    font-size: 32px;
+}
+/* In the primary variant, css was written for the button. */
+.button-primary{
+    font-weight: bold;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #01A66F;
+    background-color: #01A66F;
+    color: white;
+}
+/* css is written for the button in the secondary variant. */
+.button-secondary{
+    font-weight: bold;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #75CE9F;
+    background-color: #75CE9F;
+    color: white;
+}

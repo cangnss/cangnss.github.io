@@ -1,0 +1,42 @@
+/* A margin has been added between the section where the instructors are located and the navbar. */
+.instructors-section{
+    margin-top: 5%;
+}
+.slider{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* photo of instructor adjusted to small size */
+.instructors-section .container .instructor .instructor-img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+/* the instructor was shown inside a card. adjusted to lean to the left. */
+.instructors-section .container .instructor .branch{
+    padding: 8px 8px;
+    border-radius: 15px;
+    color: white;
+    background-color: #BDD99E;
+    font-weight: bold;
+}
+.instructors-section .container .instructor{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    height: 100%;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.instructors-section .container .instructor p{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
