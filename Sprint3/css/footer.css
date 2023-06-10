@@ -1,0 +1,38 @@
+.footer .footer-container {
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #ffc06e;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .footer .footer-container .footer-content {
+    text-align: center;
+    padding-top: 50px;
+    float: left;
+    overflow: hidden;
+  }
+  
+  .footer .footer-content .footer-content-text {
+    text-align: center;
+  }
+  .footer .footer-container .footer-list {
+    text-align: center;
+    float: right;
+    padding-top: 50px;
+  }
+  
+  .footer .footer-list .footer-list-ul {
+    list-style-type: none;
+    margin: 1rem;
+  }
+  .footer .footer-list .footer-list-ul li {
+    margin: 16px;
+  }
+  .footer .footer-list .footer-list-ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
