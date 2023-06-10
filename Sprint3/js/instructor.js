@@ -13,19 +13,16 @@ $(document).ready(function () {
       </div>
     `;
   };
-  $.ajax({
-    url: `../json_files/instructors.json`,
-    dataType: "json",
-    success: function (data) {
-      const instructors = data.instructors;
+  $.getJSON("../json_files/instructors.json", function (data) {
+    // Map through the instructors and update corresponding HTML elements
+    const instructors = data.instructors;
       instructors.map((instructor, index) => {
         index += 1
         var element = cardElement(instructor, index);
         $(`#slider`).append(element);
       });
-    },
-    error: function (xhr, status, error) {
-      console.log("AJAX Error:", error);
-    },
+  }).fail(function () {
+    // Log an error message to the console if data fetching fails
+    console.log("Error: Cannot fetch data from " + url);
   });
 });
