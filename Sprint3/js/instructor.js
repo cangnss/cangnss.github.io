@@ -23,6 +23,6 @@ $(document).ready(function () {
       });
   }).fail(function () {
     // Log an error message to the console if data fetching fails
-    console.log("Error: Cannot fetch data from " + url);
+    console.log("Error: Cannot fetch data from json");
   });
 });
