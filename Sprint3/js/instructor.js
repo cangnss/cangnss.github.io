@@ -13,7 +13,7 @@ $(document).ready(function () {
       </div>
     `;
   };
-  $.getJSON("../json_files/instructors.json", function (data) {
+  $.getJSON("./json_files/instructors.json", function (data) {
     // Map through the instructors and update corresponding HTML elements
     const instructors = data.instructors;
       instructors.map((instructor, index) => {
