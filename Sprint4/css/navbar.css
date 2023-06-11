@@ -1,0 +1,44 @@
+.header {
+    padding: 20px 20px;
+    background-color: #efefef;
+  }
+  /* The div that wraps the navbar is set relative 
+  to the normal position by giving position relative. */
+  .header .container .navbar-items {
+    position: relative;
+  }
+  .header .container .navbar-items .navbar-logo {
+    float: left;
+    margin-right: 30%;
+  }
+  .header .container .navbar-items .navbar-logo {
+    float: left;
+  }
+  .header .container .navbar-items .navbar-menu .navigation-list {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 28px;
+  }
+  .header .container .navbar-items .navbar-menu .navigation-list li {
+    margin: 16px;
+    display: inline;
+  }
+  .header .container .navbar-items .navbar-menu .navigation-list a {
+    text-decoration: none;
+  }
+  .header .container .navbar-items .navigation-buttons {
+    float: right;
+  }
+  .header .container .navbar-items .navigation-buttons .signup-btn {
+    background-color: transparent;
+  }
+  .header .container .navbar-items .navigation-buttons .signup-btn a {
+    color: black;
+  }
+  .header .container .navbar-items .navigation-buttons button a {
+    text-decoration: none;
+    color: white;
+  }

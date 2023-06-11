@@ -7,4 +7,4 @@ List of all plugins and widgets;
 6-I used datepicker widget and toastr plugin in the form on the contact page.
 7-I added "Confirm" and "Cancel" with magnific popup to ask if it wants to send the message.
 
-URL: https://cangnss.github.io/Sprint2/index.html
+URL: https://cangnss.github.io/Sprint3/index.html

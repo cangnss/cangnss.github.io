@@ -1,0 +1,61 @@
+.about-content {
+  margin-left: 15%;
+}
+.about-content .container h2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 42px;
+}
+.about-content .container .about .about-img {
+  border-radius: 15px;
+  float: left; /* I justified the photo to the left */
+}
+.about-content .container .about-text {
+  float: left; /* I justified the text to the left */
+  margin-left: 30px;
+}
+.about-content .container .about-text h3 {
+  font-size: 32px;
+  margin-bottom: 0; /* I reset the distance between the title and the text */
+}
+.comments-content {
+  position: absolute;
+  top: 68%;
+  left: 10%;
+  width: 75%;
+}
+.comments-content h1{
+    font-size: 32px;
+}
+#comments {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#comments td,
+#comments th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#comments tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#comments tr:hover {
+  background-color: #ddd;
+}
+
+#comments th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.footer .footer-container {
+  margin-top: 82% !important;
+}

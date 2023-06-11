@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link rel="stylesheet" href="jquery/jquery-ui.css" />
+    <link rel="stylesheet" href="jquery/jquery-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="jquery/toastr/toastr.min.css" />
+    <link rel="stylesheet" href="css/ui.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/courses.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- There are logos and menus in the navbar. -->
+    <header class="header">
+      <div class="container">
+        <div class="navbar-items">
+          <div class="navbar-logo">
+            <img src="./img/logo.png" alt="logo" width="128" height="64" />
+          </div>
+          <div class="navbar-menu">
+            <ul class="navigation-list">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="courses.html">Courses</a>
+              </li>
+              <li>
+                <a href="instructors.html">Instructors</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="courses-content">
+        <div class="container">
+          <div class="column course">
+            <img src="img/webprogramming.png" alt="" class="course-img" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum voluptates dicta, doloribus possimus, ducimus</p>
+            <div class="course-info">
+              <img src="img/teacher1.png" alt="" class="course-instructor-img" />
+              <p class="course-instructor">Ali Can Güneş</p>
+            </div>  
+            <div class="course-category">
+              Web
+            </div>
+            <div class="join-course" id="joinCourse1">
+              <a href="#" class="button-secondary">Join Course</a>
+            </div>
+          </div>
+          <div class="payment-popup mfp-hide" id="paymentPopup1">
+            <h2>Payment</h2>
+            <div class="payment-div">
+              <div class="form-item">
+                <label for="card-number">Card Number</label>
+                <input type="text" class="card-number" id="card-number" name="card-number" placeholder="•••• •••• •••• ••••" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-owner">Card Owner</label>
+                <input type="text" class="card-owner" id="card-owner" name="card-owner" placeholder="Ali Can Güneş" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-exp">Expiration Date</label>
+                <input type="tel" class="card-exp" id="card-exp" name="card-exp" placeholder="•• / ••" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-cvv">CVV</label>
+                <input type="tel" class="card-cvv" id="card-cvv" name="card-cvv" placeholder="••••" required/>
+              </div>
+              <div class="form-item">
+                <input type="button" value="Pay" class="pay-btn1" />
+              </div>
+            </div>
+          </div>
+          <div class="column course">
+            <img src="img/mathematics.png" alt="" class="course-img" style="height: 129px;" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum voluptates dicta, doloribus possimus, ducimus</p>
+            <div class="course-info">
+              <img src="img/teacher1.png" alt="" class="course-instructor-img" />
+              <p class="course-instructor">Ali Can Güneş</p>
+            </div>  
+            <div class="course-category">
+              Math
+            </div>
+            <div class="join-course" id="joinCourse2">
+              <a href="#" class="button-secondary">Join Course</a>
+            </div>
+          </div>
+          <div class="payment-popup mfp-hide" id="paymentPopup2">
+            <h2>Payment</h2>
+            <div class="payment-div">
+              <div class="form-item">
+                <label for="card-number">Card Number</label>
+                <input type="text" class="card-number" id="card-number" name="card-number" placeholder="•••• •••• •••• ••••" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-owner">Card Owner</label>
+                <input type="text" class="card-owner" id="card-owner" name="card-owner" placeholder="Ali Can Güneş" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-exp">Expiration Date</label>
+                <input type="tel" class="card-exp" id="card-exp" name="card-exp" placeholder="•• / ••" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-cvv">CVV</label>
+                <input type="tel" class="card-cvv" id="card-cvv" name="card-cvv" placeholder="••••" required/>
+              </div>
+              <div class="form-item">
+                <input type="button" value="Pay" class="pay-btn2" />
+              </div>
+            </div>
+          </div>
+          <div class="column course">
+            <img src="img/history.png" alt="" class="course-img" style="height: 129px;" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum voluptates dicta, doloribus possimus, ducimus</p>
+            <div class="course-info">
+              <img src="img/teacher1.png" alt="" class="course-instructor-img" />
+              <p class="course-instructor">Ali Can Güneş</p>
+            </div>  
+            <div class="course-category">
+              History
+            </div>
+            <div class="join-course" id="joinCourse3">
+              <a href="#" class="button-secondary">Join Course</a>
+            </div>
+          </div>
+          <div class="payment-popup mfp-hide" id="paymentPopup3">
+            <h2>Payment</h2>
+            <div class="payment-div">
+              <div class="form-item">
+                <label for="card-number">Card Number</label>
+                <input type="text" class="card-number" id="card-number" name="card-number" placeholder="•••• •••• •••• ••••" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-owner">Card Owner</label>
+                <input type="text" class="card-owner" id="card-owner" name="card-owner" placeholder="Ali Can Güneş" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-exp">Expiration Date</label>
+                <input type="tel" class="card-exp" id="card-exp" name="card-exp" placeholder="•• / ••" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-cvv">CVV</label>
+                <input type="tel" class="card-cvv" id="card-cvv" name="card-cvv" placeholder="••••" required/>
+              </div>
+              <div class="form-item">
+                <input type="button" value="Pay" class="pay-btn3" />
+              </div>
+            </div>
+          </div>
+          <div class="column course">
+            <img src="img/science.jpg" alt="" class="course-img" style="height: 129px;" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum voluptates dicta, doloribus possimus, ducimus</p>
+            <div class="course-info">
+              <img src="img/teacher1.png" alt="" class="course-instructor-img" />
+              <p class="course-instructor">Ali Can Güneş</p>
+            </div>  
+            <div class="course-category">
+              Web
+            </div>
+            <div class="join-course" id="joinCourse4">
+              <a href="#" class="button-secondary">Join Course</a>
+            </div>
+          </div>
+          <div class="payment-popup mfp-hide" id="paymentPopup4">
+            <h2>Payment</h2>
+            <div class="payment-div">
+              <div class="form-item">
+                <label for="card-number">Card Number</label>
+                <input type="text" class="card-number" id="card-number" name="card-number" placeholder="•••• •••• •••• ••••" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-owner">Card Owner</label>
+                <input type="text" class="card-owner" id="card-owner" name="card-owner" placeholder="Ali Can Güneş" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-exp">Expiration Date</label>
+                <input type="tel" class="card-exp" id="card-exp" name="card-exp" placeholder="•• / ••" required/>
+              </div>
+              <div class="form-item">
+                <label for="card-cvv">CVV</label>
+                <input type="tel" class="card-cvv" id="card-cvv" name="card-cvv" placeholder="••••" required/>
+              </div>
+              <div class="form-item">
+                <input type="button" value="Pay" class="pay-btn4" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- In the footer section, there is a text and menus describing the VPT. -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="column footer-content">
+          <div class="footer-content-logo">
+            <img src="./img/logo.png" alt="logo" width="100" height="64" />
+          </div>
+          <div class="footer-content-text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Reiciendis quas totam voluptas suscipit unde sed, deleniti iusto
+              asperiores eius iste, minus in id et deserunt voluptatem labore
+              minima, cum dolor.
+            </p>
+          </div>
+        </div>
+        <div class="column footer-list">
+          <ul class="footer-list-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="instructors.html">Instructors</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./jquery/jquery.js"></script>
+    <script src="./jquery/jquery-ui.js"></script>
+    <script src="jquery/jquery-popup/jquery.magnific-popup.min.js"></script>
+    <script src="jquery/toastr/toastr.min.js"></script>
+    <script src="jquery/jquery-payment/jquery.payment.min.js"></script>
+    <script src="js/courses.js"></script>
+  </body>
+</html>

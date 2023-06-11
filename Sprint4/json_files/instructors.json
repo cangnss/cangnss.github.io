@@ -1,0 +1,70 @@
+{
+    "instructors":[
+        {
+            "id":1,
+            "firstname":"Ali Can",
+            "lastname":"Güneş",
+            "image":"img/teacher1.png",
+            "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae assumenda perferendis provident dignissimos minima.",
+            "branchs":{
+                "firstBranch":"Frontend",
+                "secondBranch":"Backend"
+            }
+        },
+        {
+            "id":2,
+            "firstname":"Dilek",
+            "lastname":"Güneş",
+            "image":"img/teacher2.png",
+            "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae assumenda perferendis provident dignissimos minima.",
+            "branchs":{
+                "firstBranch":"Math",
+                "secondBranch":"Backend"
+            }
+        },
+        {
+            "id":3,
+            "firstname":"Cem",
+            "lastname":"Güneş",
+            "image":"img/teacher3.png",
+            "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae assumenda perferendis provident dignissimos minima.",
+            "branchs":{
+                "firstBranch":"History",
+                "secondBranch":"Science"
+            }
+        },
+        {
+            "id":4,
+            "firstname":"Yusuf",
+            "lastname":"Yalçın",
+            "image":"img/teacher3.png",
+            "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae assumenda perferendis provident dignissimos minima.",
+            "branchs":{
+                "firstBranch":"Sport",
+                "secondBranch":"Football"
+            }
+        },
+        {
+            "id":5,
+            "firstname":"Ceren",
+            "lastname":"Güneş",
+            "image":"img/teacher5.png",
+            "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae assumenda perferendis provident dignissimos minima.",
+            "branchs":{
+                "firstBranch":"Architecture",
+                "secondBranch":"Design"
+            }
+        },
+        {
+            "id":6,
+            "firstname":"Zeynep",
+            "lastname":"Yalçın",
+            "image":"img/teacher4.png",
+            "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae assumenda perferendis provident dignissimos minima.",
+            "branchs":{
+                "firstBranch":"Science",
+                "secondBranch":"Math"
+            }
+        }
+    ]
+}
